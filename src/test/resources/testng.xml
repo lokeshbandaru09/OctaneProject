@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!--!DOCTYPE suite SYSTEM “http://testng.org/testng-1.0.dtd&#8221; -->
+<suite name="Suite1"  >
+    <test name="Tes1" >
+        <classes>
+            <class name="Runner.TestRunner" />
+        </classes>
+    </test>
+    <test name="Test2">
+        <classes>
+            <class name="Runner.TestRunner" />
+        </classes>
+    </test>
+</suite>
+
+
+

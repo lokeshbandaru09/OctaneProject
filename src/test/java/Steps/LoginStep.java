@@ -8,9 +8,9 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 
 
-public class LoginStep {
 
-    private BaseUtil base;
+public class LoginStep {
+    public BaseUtil base;
     public LoginStep(BaseUtil base) {
         this.base = base;
     }
