@@ -69,8 +69,8 @@
       <file leaf-file-name="TestRunner.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Runner/TestRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            <state relative-caret-position="238">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -761,7 +761,7 @@
       <updated>1499436986597</updated>
       <workItem from="1501255213874" duration="9375000" />
       <workItem from="1501406919044" duration="2701000" />
-      <workItem from="1501430177796" duration="7395000" />
+      <workItem from="1501430177796" duration="7997000" />
     </task>
     <task id="LOCAL-00001" summary="Ignore File is added">
       <created>1500913984748</created>
@@ -889,7 +889,14 @@
       <option name="project" value="LOCAL" />
       <updated>1501507184311</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Commit to see GIT to Jekins Working 1">
+      <created>1501508328671</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1501508328671</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -925,7 +932,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19471000" />
+    <option name="totallyTimeSpent" value="20073000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1020,7 +1027,8 @@
     <MESSAGE value="First commit on 28th July" />
     <MESSAGE value="First commit on 28th July with PUSH now" />
     <MESSAGE value="Commit to see GIT to Jekins Working" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit to see GIT to Jekins Working" />
+    <MESSAGE value="Commit to see GIT to Jekins Working 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit to see GIT to Jekins Working 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1312,8 +1320,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Runner/TestRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        <state relative-caret-position="238">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
