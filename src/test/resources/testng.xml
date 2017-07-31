@@ -1,18 +1,17 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" verbose="1" >
+    <test name="test1" >
+        <classes>
+            <class name="Runner.TestRunner" />
+        </classes>
+    </test>
 
-<!--!DOCTYPE suite SYSTEM “http://testng.org/testng-1.0.dtd&#8221; -->
-<suite name="Suite1"  >
-    <test name="Tes1" >
+    <test name="test2" >
         <classes>
             <class name="Runner.TestRunner" />
+
+
         </classes>
     </test>
-    <test name="Test2">
-        <classes>
-            <class name="Runner.TestRunner" />
-        </classes>
-    </test>
+
 </suite>
-
-
-
