@@ -12,6 +12,4 @@ import cucumber.api.CucumberOptions;
 @CucumberOptions(features = {"src/test/java/features"} , glue = "Steps")
 //public class TestRunner{
 public class TestRunner extends AbstractTestNGCucumberTests {
-
-
 }
