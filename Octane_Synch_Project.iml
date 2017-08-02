@@ -77,8 +77,7 @@
     <orderEntry type="library" name="Maven: org.apache.maven.surefire:surefire-grouper:2.20" level="project" />
     <orderEntry type="library" name="Maven: org.apache.maven.surefire:surefire-api:2.20" level="project" />
     <orderEntry type="library" name="Maven: org.apache.maven.surefire:surefire-logger-api:2.20" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-1.2-api:2.2" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-api:2.2" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-core:2.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-core:2.8.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-api:2.8.2" level="project" />
   </component>
 </module>
