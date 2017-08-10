@@ -31,9 +31,12 @@ public void JenkinsTest ()
         capabilities.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
         capabilities.setCapability("requireWindowFocus", true);
         //WebDriver driver = new InternetExplorerDriver(capabilities);
-        System.setProperty("webdriver.ie.driver", "C:\\Users\\rvr480\\Downloads\\IEDriverServer_x64_3.4.0\\IEDriverServer.exe" );
-    //    System.setProperty("webdriver.chrome.driver", "C:\\Users\\rvr480\\Downloads\\chromedriver_win32\\chromedriver.exe" );
-        WebDriver driver = new InternetExplorerDriver(capabilities);
+     //   System.setProperty("webdriver.ie.driver", "C:\\Program Files\\Internet Explorer\\iexplore.exe" );
+      System.setProperty("webdriver.chrome.driver", "C:\\Users\\Administrator\\Downloads\\chromedriver_win32\\chromedriver.exe" );
+
+        WebDriver driver = new ChromeDriver();
+
+      //  WebDriver driver = new InternetExplorerDriver(capabilities);
         System.out.println("Hi, Welcome to Devops Demo");
 
     //   Code for Amazon wesite to serach for desired Name : DEVOPS BOOKS
