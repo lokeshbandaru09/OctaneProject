@@ -29,21 +29,27 @@ import static java.lang.Thread.sleep;
 public class SeleniumVideo{
     @Test
 public void JenkinsTest () throws InterruptedException {
-     // Code to make run faster in Internet Explorer
-        DesiredCapabilities capabilities = DesiredCapabilities.internetExplorer();
-        capabilities.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
-        capabilities.setCapability("requireWindowFocus", true);
-        //WebDriver driver = new InternetExplorerDriver(capabilities);
-     //   System.setProperty("webdriver.ie.driver", "C:\\Program Files\\Internet Explorer\\iexplore.exe" );
+      // Code to make run faster in Internet Explorer
+      DesiredCapabilities capabilities = DesiredCapabilities.internetExplorer();
+      capabilities.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
+      capabilities.setCapability("requireWindowFocus", true);
+
+     //   WebDriver driver = new InternetExplorerDriver(capabilities);
+   //     System.setProperty("webdriver.ie.driver", "C:\\Users\\Administrator\\Downloads\\IEDriverServer_x64_3.5.0\\IEDriverServer.exe");
       System.setProperty("webdriver.chrome.driver", "C:\\Users\\Administrator\\Downloads\\chromedriver_win32\\chromedriver.exe" );
 
+
+
+
+
+      // Code for Maximising the Windows
         //WebDriver driver = new ChromeDriver();
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("--start-maximized");
         WebDriver driver = new ChromeDriver(chromeOptions);
 
 
-      //  WebDriver driver = new InternetExplorerDriver(capabilities);
+     //  WebDriver driver = new InternetExplorerDriver(capabilities);
         System.out.println("Hi, Welcome to Devops Demo");
 
     //   Code for Amazon wesite to serach for desired Name : DEVOPS BOOKS
