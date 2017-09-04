@@ -1,4 +1,4 @@
-Feature: LognFeature
+Feature: LoginFeature
   LoginFeature deals with Login functionality for the System.
 
   Scenario:  Logging with correct user Name and Password
