@@ -98,7 +98,7 @@ public void JenkinsTest () throws InterruptedException {
           driver.manage().timeouts().pageLoadTimeout(10,TimeUnit.SECONDS );
        */
         driver.manage().timeouts().pageLoadTimeout(60,TimeUnit.SECONDS );
-      // driver.quit();
+      driver.quit();
 
 
     }
