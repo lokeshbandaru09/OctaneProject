@@ -1,10 +1,8 @@
 package Steps;
 
-import org.apache.log4j.Logger;
+
 import Base.BaseUtil;
-import com.LT.SeleniumVideo;
-import cucumber.api.DataTable;
-import cucumber.api.PendingException;
+
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -17,9 +15,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.ie.*;
-import org.openqa.selenium.remote.DesiredCapabilities;
-import org.testng.annotations.Test;
+
 
 
 public class LoginStep {
@@ -31,7 +27,7 @@ public class LoginStep {
 
 
         ChromeOptions chromeOptions = new ChromeOptions();
-     //   chromeOptions.addArguments("--start-maximized");
+      //  chromeOptions.addArguments("--start-maximized");
         WebDriver driver = new ChromeDriver(chromeOptions);
 
 
@@ -44,9 +40,9 @@ public class LoginStep {
         //throw new PendingException();
 
 
-        System.out.println("Hi, Welcome to Devops Demo");
+            System.out.println("Hi, Welcome to DevOps Demo");
 
-        //   Code for Amazon website to serach for desired Name : Adidas Shoes.
+        //   Code for Amazon website to search for desired Name : Adidas Shoes.
              driver.navigate().to("https://www.amazon.com");
              driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 

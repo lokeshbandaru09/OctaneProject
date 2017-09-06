@@ -6,12 +6,6 @@
         </classes>
     </test>
 
-    <test name="test2">
-        <classes>
-            <class name="Runner.TestRunner"/>
 
-
-        </classes>
-    </test>
 
 </suite>
